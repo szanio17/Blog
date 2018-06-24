@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<hibernate-configuration xmlns="urn:nhibernate-configuration-2.2">
+  <session-factory>
+    <property name="connection.driver_class">NHibernate.Driver.SqlClientDriver</property>
+    <property name="connection.connection_string">
+      server=den1.mssql3.gear.host;database=mygreatblogdb;user=mygreatblogdb;password=Ry3b95!7_0tj;
+    </property>
+    <property name="dialect">NHibernate.Dialect.MsSql2008Dialect</property>
+    <mapping assembly="DataAccess"/>
+  </session-factory>
+
+</hibernate-configuration>
